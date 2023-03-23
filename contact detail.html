@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Details</title>
+</head>
+
+<body>
+    <form action="mailto:prathampporeddiwar27@gmail.com" method="post" enctype="text/plain">
+        <CENTER>
+            <div>
+                <label for="username">ENTER YOUR NAME</label>
+                <input type="text" name="uname" placeholder="ENTER YOUR NAME" id="username" minlength="5" maxlength="30"
+                    pattern="[a-z A-z]{5,30}" required>
+            </div>
+            <br>
+            <div>
+                <label for="userpassword">ENTER YOUR PASSWORD</label>
+                <input type="password" name="upassword" placeholder="ENTER YOUR PASSWORD" id="userpassword">
+            </div>
+            <br>
+            <div>
+                <label for="userDOB">ENTER YOUR DOB</label>
+                <input type="date" name="DOB" id="userDOB">
+            </div>
+            <br>
+            <div>
+                <label for="uphonenumber">ENTER YOUR PHONE NUMBER</label>
+                <input type="tel" name="ucontact" placeholder="ENTER YOUR PHONE NUMBER" id="uphonenumber" minlength="10"
+                    maxlength="13" required>
+            </div>
+            <br>
+            <div>
+                <label for="useremail">ENTER YOUR EMAIL</label>
+                <input type="email" name="uemail" placeholder="ENTER YOUR EMAIL" id="useremail">
+            </div>
+            <br>
+            <div>
+                <label for="usergender">GENDER</label>
+                <input type="radio" name=GENDER value="MALE" checked>MALE
+                <input type="radio" name=GENDER value="FEMALE">FEMALE
+            </div>
+            <br>
+            <div>
+                <label for="Ustate">SELECT YOUR EDUCATION</label><br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="checkbox" value="SSC" checked>SSC
+                <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="checkbox" value="HSC" checked>HSC
+                <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="checkbox" value="DIPLOMA">DIPLOMA
+                <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="checkbox"
+                    value="GRADUATION">GRADUATION
+                <label for="ugstream">GRADUATION STREAM</label><input type="text" name="userugstream" id="ugstream">
+                <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="checkbox" value="POST GRADUATION">
+                POST
+                GRADUATION <label for="pgstream">Post GRADUATION STREAM</label><input type="text" name="userpgstream"
+                    id="pgstream">
+            </div>
+            <br>
+            <div>
+                <label FOR="ucity">SELECT CITIES YOU WANT TO WORK</label>
+                <select name="CITY" id="ucity" multiple>
+                    <option value="">SELECT CITIES</option>
+                    <option value="MUMBAI">MUMBAI</option>
+                    <option value="NAGPUR">NAGPUR</option>
+                    <option value="PUNE">PUNE</option>
+                    <option value="DELHI">DELHI</option>
+                    <option value="HYDERABAD">HYDERABAD</option>
+                    <option value="GOA">GOA</option>
+                    <option value="BANGLORE">BANGLORE</option>
+                    <option value="CHENNAI">CHENNAI</option>
+                    <option value="LUCKNOW">LUCKNOW</option>
+                    <option value="AGRA">AGRA</option>
+                    <option value="GUWAHATI">GUWAHATI</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="Fees">COURSE FEES</label>
+                <input type="text" name="FEES" id="Fees" value="100000" readonly>
+            </div>
+            <br>
+            <div>
+                <label>UPLOAD YOUR RESUME</label>
+                <input type="file">
+            </div>
+            <br>
+            <div>
+                <label>ADD RANGE OF YOUR ENGLISH SPEAKING</label>
+                <input type="range">
+            </div>
+            <br>
+            <fieldset>
+                <legend>BANK DETAILS</legend>
+                <div><label for="User Account Number">ACCOUNT NUMBER</label>
+                    <input type="text" id="User Account Number" pattern="[0-9]{1,100}">
+                </div>
+                <br>
+                <div>
+                    <label for="User Account Name">ACCOUNT NAME</label>
+                    <input type="text">
+                </div>
+            </fieldset>
+            <br>
+            <div>
+                <label>COLOR</label>
+                <input type="color">
+            </div>
+            <br>
+            <div>
+                <button type="submit">SUBMIT</button>
+            </div>
+            <br>
+            <div>
+                <label>FEEDBACK</label>
+                <textarea name="feddback" id="" cols="30" rows="10"></textarea>
+            </div>
+        </CENTER>
+    </form>
+</body>
+
+</html>
